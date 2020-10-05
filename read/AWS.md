@@ -25,3 +25,21 @@
         - 서버가 없어도 구성이 가능한 정적 웹 호스팅을 만들고, 웹 속도를 높이기 위해서 콘텐츠 전송 네트워크 서비스를 연결
     - S3 , CloudFont
     
+- S3 버킷이름 유효사항
+    - 기존에 있는 버킷이름 불가능
+    - 최소 3자 최대 65 사이만 가능
+    - 소문자 숫자 . - 만 가능 
+    
+- 기본값은 Block all public access
+    - 기본은 공용 퍼블릭을 제한한다.
+    
+    
+    
+- 서버리스 구축계획
+- 람다함수 만들기
+- 다이나모 디비 테이블 생성 람다 호출하기
+- IAM으로 DynamoDB 접근 권한 생성하기
+- API GateWay 구축 GET Method
+- POST Method
+- PUT Method
+- DeleteMethod
